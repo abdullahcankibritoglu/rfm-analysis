@@ -376,20 +376,19 @@ All visualizations will be saved to `visualizations/` as interactive HTML files.
 ```
 rfm-analysis/
 │
-├── rfm.py                      # Main analysis script
-├── online_retail.csv           # Dataset (download from Kaggle)
-├── requirements.txt            # Python dependencies
-├── .gitignore                  # Excludes dataset and cache
-├── README.md                   # Project documentation
+├── rfm.py
+├── requirements.txt
+├── .gitignore
+├── README.md
 │
-└── visualizations/             # Auto-generated (create with mkdir)
-    ├── top_countries.html
-    ├── daily_sales.html
-    ├── heatmap.html
-    ├── top_products.html
-    ├── treemap.html
-    ├── scatter.html
-    └── cohort.html
+└── screenshots/           ← visualizations değil
+    ├── top_countries.png
+    ├── daily_sales.png
+    ├── heatmap.png
+    ├── top_products.png
+    ├── treemap.png
+    ├── scatter.png
+    └── cohort.png
 ```
 
 ---
